@@ -13,7 +13,7 @@ public class viki
             Scanner scanner1 = new Scanner(System.in);
             String viki = scanner1. nextLine();
             //DO if statement here later)\
-            if(viki.equalsIgnoreCase("whats up") || viki.equalsIgnoreCase("hello") || viki.equalsIgnoreCase("hi") || viki.equalsIgnoreCase("what's up"))
+            if(viki.equalsIgnoreCase("whats up") || viki.equalsIgnoreCase("hi") || viki.equalsIgnoreCase("what's up"))
             {
                 System.out.println("hello");
                 System.out.println("  ");
@@ -24,7 +24,6 @@ public class viki
                 System.out.println("  ");
 
             }
-            
             else if (viki.equalsIgnoreCase("how old are you") || viki.equalsIgnoreCase("your age") || viki.equalsIgnoreCase("age") || viki.equalsIgnoreCase("how old are you?"))
             {
                 System.out.println("as old as the internet");   
@@ -139,15 +138,15 @@ public class viki
                 System.out.println("largest software maker by revenue, and one of the world's most valuable companies. "); 
                 System.out.println("");
             }
-             else if (viki.equalsIgnoreCase("make me food"))
-            {
-                System.out.println("ur fat");   
-                System.out.println("  ");
-            }
 
             else if (viki.equalsIgnoreCase("you stink") || viki.equalsIgnoreCase("you suck") || viki.equalsIgnoreCase("i hate you") || viki.equalsIgnoreCase("your lame"))
             {
                 System.out.println(":'(");   
+                System.out.println("  ");
+            }
+            else if(viki.equalsIgnoreCase("hello")) 
+            {
+                System.out.println("hi");
                 System.out.println("  ");
             }
             else if (viki.equalsIgnoreCase("wiki apple")) 
@@ -161,6 +160,17 @@ public class viki
                 System.out.println("Average on March 19, 2015. ");
                 System.out.println("  ");
             }
+            else if(viki.equalsIgnoreCase("wiki minecraft")) 
+            {
+                System.out.println("Here is a short wikipedia paragraph about minecraft. ");
+                System.out.println("  ");
+                System.out.println("Minecraft is a sandbox construction game created by Mojang AB founder Markus Persson, and inspired by the"); 
+                System.out.println("Infiniminer, Dwarf Fortress and Dungeon Keeper games. Gameplay involves players interacting with the game"); 
+                System.out.println("world by placing and breaking various types of blocks in a three-dimensional environment. In this environment,"); 
+                System.out.println("players can build creative structures, creations, and artwork on multiplayer servers and singleplayer worlds"); 
+                System.out.println("across multiple game modes");
+                System.out.println("  ");
+            }
             else if (viki.equalsIgnoreCase("wiki dell"))
             {
                 System.out.println("Here is a short wikipedia paragraph about dell inc.");
@@ -171,8 +181,6 @@ public class viki
                 System.out.println("the world, employing more than 103,300 people worldwide. ");
                 System.out.println("  ");
             }
-            
-            
 
             else
             {
