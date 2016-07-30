@@ -191,19 +191,6 @@ public class viki
                 System.out.println("the world, employing more than 103,300 people worldwide. ");
                 System.out.println("  ");
             }
-            else if (viki.equalsIgnoreCase("wiki call of duty") || viki.equalsIgnoreCase("wiki cod")) 
-            {
-                System.out.println("Here is a short wikipedia paragraph about call of duty.");
-                System.out.println("  ");
-                System.out.println("The Call of Duty games are published and owned by Activision. While Infinity Ward is still a developer, Treyarch and 
-                System.out.println("Sledgehammer Games also develop several of the titles with the release of the studios' games alternating with each other. 
-                System.out.println("Some games have been developed by Gray Matter Interactive, Nokia, Exakt Entertainment, Spark Unlimited, Amaze Entertainment,
-                System.out.println("n-Space, Aspyr, Rebellion Developments, Ideaworks Game Studio, and nStigate Games. The games use a variety of engines,
-                System.out.println(" including the id Tech 3, the Treyarch NGL, and the IW engine.
-                System.out.println("  ");
-
-            }
-
             else
             {
                 System.out.println("I dont Know that command ");
