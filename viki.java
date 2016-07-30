@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class viki
 {
@@ -40,12 +41,42 @@ public class viki
                 System.out.println("  ");
             }
 
-            else if (viki.equalsIgnoreCase("end") || viki.equalsIgnoreCase("leave") || viki.equalsIgnoreCase("stop") || viki.equalsIgnoreCase("exit") || viki.equalsIgnoreCase("shutdown"))
+            else if (viki.equalsIgnoreCase("wiki links"))
             {
+                System.out.println("type in these words and you will get a short wikipedia pharaghraph about these subjects");
                 System.out.println("");
-                System.out.println("");
+                System.out.println("wiki apple");
+                System.out.println("wiki microsoft");
+                System.out.println("wiki minecraft");
+                System.out.println("wiki dell");
+                System.out.println("wiki call of duty");
                 System.out.println("");
 
+            }
+            else if (viki.equalsIgnoreCase("what is your favorite color") || viki.equalsIgnoreCase("what is your favorite color?") || viki.equalsIgnoreCase("whats your favorite color") || viki.equalsIgnoreCase("what's your favorite color") || viki.equalsIgnoreCase("what's your favorite color?"))
+            {
+                private final int numSides;
+
+    public Dice (int sides)
+    {
+        this.numSides = sides;
+
+        Random dice = new Random();
+        int num =0;
+        int roll=1;
+
+    }
+     public int roll(int times)
+     {
+         int sum=0;
+         for(int i=0; i<times; i++)
+         {
+             sum += roll();
+         }
+
+        }
+                return sum;
+            }
             }
             else if (viki.equalsIgnoreCase("tell me a joke") || viki.equalsIgnoreCase("i want a joke") || viki.equalsIgnoreCase("joke")) 
             {
@@ -63,8 +94,7 @@ public class viki
                 System.out.println("whats your favorite color");
                 System.out.println("tell me a joke");
                 System.out.println("open cameraroll");
-                System.out.println("wiki microsoft");
-                System.out.println("wiki apple");
+                System.out.println("wiki links");
                 System.out.println("etc");
                 System.out.println("");
             }
