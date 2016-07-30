@@ -34,11 +34,17 @@ public class viki
                 System.out.println("blue");   
                 System.out.println("  ");
             }
+             else if (viki.equalsIgnoreCase("what is your favorite color") || viki.equalsIgnoreCase("what is your favorite color?") || viki.equalsIgnoreCase("whats your favorite color") || viki.equalsIgnoreCase("what's your favorite color") || viki.equalsIgnoreCase("what's your favorite color?"))
+            {
+                System.out.println("blue");   
+                System.out.println("  ");
+            }
 
             else if (viki.equalsIgnoreCase("end") || viki.equalsIgnoreCase("leave") || viki.equalsIgnoreCase("stop") || viki.equalsIgnoreCase("exit") || viki.equalsIgnoreCase("shutdown"))
             {
-                System.out.println("ok"); 
-                System.exit(0);
+                System.out.println("");
+                System.out.println("");
+                System.out.println("");
 
             }
             else if (viki.equalsIgnoreCase("tell me a joke") || viki.equalsIgnoreCase("i want a joke") || viki.equalsIgnoreCase("joke")) 
