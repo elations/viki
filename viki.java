@@ -183,7 +183,7 @@ public class viki
             }
             else if (viki.equalsIgnoreCase("wiki call of duty") || viki.equalsIgnoreCase("wiki cod")) 
             {
-                System.out.println("Here is a short wikipedia paragraph about dell inc.");
+                System.out.println("Here is a short wikipedia paragraph about call of duty.");
                 System.out.println("  ");
                 System.out.println("The Call of Duty games are published and owned by Activision. While Infinity Ward is still a developer, Treyarch and 
                 System.out.println("Sledgehammer Games also develop several of the titles with the release of the studios' games alternating with each other. 
