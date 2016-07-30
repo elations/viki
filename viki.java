@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Random;
 
 public class viki
 {
@@ -35,11 +34,6 @@ public class viki
                 System.out.println("blue");   
                 System.out.println("  ");
             }
-             else if (viki.equalsIgnoreCase("what is your favorite color") || viki.equalsIgnoreCase("what is your favorite color?") || viki.equalsIgnoreCase("whats your favorite color") || viki.equalsIgnoreCase("what's your favorite color") || viki.equalsIgnoreCase("what's your favorite color?"))
-            {
-                System.out.println("blue");   
-                System.out.println("  ");
-            }
 
             else if (viki.equalsIgnoreCase("wiki links"))
             {
@@ -53,30 +47,10 @@ public class viki
                 System.out.println("");
 
             }
-            else if (viki.equalsIgnoreCase("what is your favorite color") || viki.equalsIgnoreCase("what is your favorite color?") || viki.equalsIgnoreCase("whats your favorite color") || viki.equalsIgnoreCase("what's your favorite color") || viki.equalsIgnoreCase("what's your favorite color?"))
+            else if (viki.equalsIgnoreCase("end") || viki.equalsIgnoreCase("powerdown") || viki.equalsIgnoreCase("stop") || viki.equalsIgnoreCase("leave"))
             {
-                private final int numSides;
-
-    public Dice (int sides)
-    {
-        this.numSides = sides;
-
-        Random dice = new Random();
-        int num =0;
-        int roll=1;
-
-    }
-     public int roll(int times)
-     {
-         int sum=0;
-         for(int i=0; i<times; i++)
-         {
-             sum += roll();
-         }
-
-        }
-                return sum;
-            }
+                System.out.println("ok");   
+                System.exit(0);
             }
             else if (viki.equalsIgnoreCase("tell me a joke") || viki.equalsIgnoreCase("i want a joke") || viki.equalsIgnoreCase("joke")) 
             {
