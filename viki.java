@@ -181,6 +181,18 @@ public class viki
                 System.out.println("across multiple game modes");
                 System.out.println("  ");
             }
+            else if (viki.equalsIgnoreCase("wiki "))
+            {
+                System.out.println("  "); 
+                System.out.println("  ");
+                System.out.println("  "); 
+                System.out.println("  ");
+                System.out.println("  "); 
+                System.out.println("  ");
+                System.out.println("  "); 
+                System.out.println("  ");
+
+            }
             else if (viki.equalsIgnoreCase("wiki dell"))
             {
                 System.out.println("Here is a short wikipedia paragraph about dell inc.");
